@@ -1,0 +1,60 @@
+.page-contact {
+  flex: 1 0 auto;
+  .contact-curve-bottom {
+    padding-bottom: 50px;
+  }
+
+  .top {
+    padding-top: 50px;
+    padding-bottom: 5px;
+  }
+
+  .contact-details {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+      h2 {
+        font-size: 18px;
+      }
+
+  }
+  .form-control{
+    border: none;
+    border-radius: 0;
+    color: $boilerplate-dark-blue;
+
+  }
+  ::placeholder { /* Firefox, Chrome, Opera */
+    color: $boilerplate-light-blue;
+  }
+  //
+  //:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  //  color: $boilerplate-light-blue;
+  //}
+  //
+  //::-ms-input-placeholder { /* Microsoft Edge */
+  //  color: $boilerplate-light-blue;
+  //}
+  .form-btn {
+    background-color: $boilerplate-dark-blue;
+    border: none;
+    color: white;
+    font-size: 24px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 20px 0;
+    &:hover {
+      background-color: white;
+      color: $boilerplate-dark-blue;
+      //border: solid 1px $boilerplate-dark-blue;
+      cursor: pointer;
+    }
+    @include  media-breakpoint-down(md){
+      width: 100%;
+    }
+    @include  media-breakpoint-down(sm){
+      font-size: 20px;
+    }
+  }
+}

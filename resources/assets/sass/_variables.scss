@@ -1,0 +1,60 @@
+// Colors
+$theme-green: #77bc1f;
+$theme-red: #ec1c24;
+$theme-red: #d6001c;
+$theme-dark: #414042;
+$theme-black: #231f20;
+$theme-light-grey: #49a1a2;
+$theme-beige-grey: #bab6b1;
+$missing-content: #D81E05;
+
+$boilerplate-light-blue: #5bdeee;
+$boilerplate-dark-blue: #00629b;
+$boilerplate-orange: #f7941d;
+// Fonts
+
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900');
+//@import url('https://fonts.googleapis.com/css?family=Trocchi');
+
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-size-base: 1rem ;
+$font-size-lg:   1.25rem;
+$font-size-sm:   .875rem;
+$font-size-xs:   .75rem;
+
+// Links
+$link-color: $theme-black;
+
+// Nav
+$navbar-height: 70px;
+
+// Buttons
+$btn-border-radius: 1px;
+$btn-primary-bg: white;
+$btn-primary-color: $theme-dark;
+$btn-padding-x: 1.75rem;
+
+// $spacer: 1rem;
+// $spacers: (
+//     50: (
+//       x: 50px,
+//       y: 50px
+//     ),
+//     100: (
+//       x: 100px,
+//       y: 100px
+//     ),
+//     180: (
+//       x: 180px,
+//       y: 180px
+//     )
+//   ) !default;
+
+//// Breadcrumbs
+//$breadcrumb-bg: transparent;
+//$breadcrumb-divider: '>';
+//$breadcrumb-divider-color: $theme-beige-grey;
+//$breadcrumb-active-color: $theme-beige-grey;
+
+

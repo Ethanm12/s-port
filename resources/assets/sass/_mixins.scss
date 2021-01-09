@@ -1,0 +1,15 @@
+//Learn to use these:
+
+//@mixin image-container($width, $height: 0) {
+//  @if $height == 0 {
+//    $height: $width;
+//  }
+//
+//  width: $width;
+//  height: $height;
+//
+//  background-position: center;
+//  background-size: cover;
+//  background-repeat: no-repeat;
+//}
+//
