@@ -2,7 +2,7 @@
 
 @section('head')
 
-    <title>Boilerplate</title>
+    <title>s-port</title>
 
 @endsection
 

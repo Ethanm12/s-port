@@ -1,6 +1,16 @@
 {
-    "/js/entry-client.js": "/js/entry-client.js?id=9873e0f6c490d53e5930",
-    "/css/app.css": "/css/app.css?id=39aea0cc1e3dc9d7ea2d",
-    "/js/manifest.js": "/js/manifest.js?id=3c768977c2574a34506e",
-    "/js/vendor.js": "/js/vendor.js?id=356939afdad43af4b697"
+    "/js/entry-client.js": "/js/entry-client.js",
+    "/css/app.css": "/css/app.css",
+    "/js/entry-client.js.map": "/js/entry-client.js.map",
+    "/css/app.css.map": "/css/app.css.map",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/manifest.js.map": "/js/manifest.js.map",
+    "/js/vendor.js": "/js/vendor.js",
+    "/js/vendor.js.map": "/js/vendor.js.map",
+    "/js/entry-client.11bb6fb886ef902b86b2.hot-update.js": "/js/entry-client.11bb6fb886ef902b86b2.hot-update.js",
+    "/js/entry-client.11bb6fb886ef902b86b2.hot-update.js.map": "/js/entry-client.11bb6fb886ef902b86b2.hot-update.js.map",
+    "/js/entry-client.a77e5210fc3281fc77ee.hot-update.js": "/js/entry-client.a77e5210fc3281fc77ee.hot-update.js",
+    "/js/entry-client.a77e5210fc3281fc77ee.hot-update.js.map": "/js/entry-client.a77e5210fc3281fc77ee.hot-update.js.map",
+    "/js/entry-client.8ff71ad8893109470df3.hot-update.js": "/js/entry-client.8ff71ad8893109470df3.hot-update.js",
+    "/js/entry-client.8ff71ad8893109470df3.hot-update.js.map": "/js/entry-client.8ff71ad8893109470df3.hot-update.js.map"
 }

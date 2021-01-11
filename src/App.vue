@@ -13,7 +13,7 @@ import { processMeta } from './utils/meta'
 export default {
     components: { NavHeader, NavFooter },
     metaInfo: () => processMeta({
-        siteName: 'Boilerplate'
+        siteName: 's-port'
     })
 }
 </script>

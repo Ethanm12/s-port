@@ -109,7 +109,6 @@
 <script>
 import gmap from "../components/Maps.vue";
 import axios from 'axios';
-import swal from "sweetalert2";
 import FormErrors from "../components/FormErrors.vue";
 import { processMeta } from '../utils/meta';
 import { mapState } from "vuex";
