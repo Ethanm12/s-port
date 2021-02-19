@@ -3716,7 +3716,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -4076,6 +4075,74 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -4090,16 +4157,16 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     };
   },
   asyncData: function asyncData(store) {
-    return store.dispatch('loadCollectionPage', 'home');
+    return store.dispatch("loadCollectionPage", "home");
   },
   metaInfo: function metaInfo() {
     return Object(_utils_meta__WEBPACK_IMPORTED_MODULE_2__["processMeta"])({
       title: this.homepage.title,
-      description: 'test'
+      description: "test"
     });
   },
   computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_1__["mapState"])({
-    homepage: 'pageData'
+    homepage: "pageData"
   })),
   methods: {
     showBoilerplateModal: function showBoilerplateModal() {
@@ -8403,9 +8470,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("nav", { staticStyle: { border: "1px solid blue" } }, [
+  return _c("nav", [
     _vm._ssrNode(
-      '<div class="navlogo" style="border: 1px solid blue;"><h1 class="heading">Sean William G</h1></div> <div class="hamburger1"><span>e</span> <span>dfe</span> <span>ges</span> <span>gew</span></div>'
+      '<div class="navlogo"><h1 class="heading">Sean William G</h1></div> <div class="hamburger1"><span></span> <span></span> <span></span></div>'
     )
   ])
 }
@@ -8677,7 +8744,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "page-home" }, [
     _vm._ssrNode(
-      '<div class="container" style="border: 1px solid blue;">\n    howd\n  </div>'
+      '<div class="container-fluid hero-projects"><div class="container hero-project"><img src="/images/hero-main-project-100.jpg" alt="Featured Project"></div> <div class="project-slide-1"><img src="/images/project-1-100.jpg" alt="Previous Project"></div> <div class="project-slide-2"><img src="/images/project-2_1-100.jpg" alt="Next Project"></div> <div class="container hero-slider-nav"><div class="hero-slider-progress"><span></span></div> <div class="hero-slider-details"><div class="slide-number">\n                    02 - 04\n                </div> <div class="slide-skills">\n                    UX/UI | Branding | Photography | Packaging\n                </div></div></div> <div class="container project-card"><div class="row"><div class="col-md-12"><div class="project-heading-container">\n              PROJECT 1\n            </div></div></div> <div class="row"><div class="col-md-4"><div class="project-details-container">\n              Client #id\n            </div></div> <div class="col-md-8"><div class="project-description-container">\n              Client #id\n            </div></div></div></div></div> <div class="container-fluid content-container">\n      ddw\n    </div>'
     )
   ])
 }

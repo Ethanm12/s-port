@@ -1,4 +1,63 @@
 .page-home {
+    height: auto;
+    .hero-projects {
+        height: 80vh;
+        position: relative;
+        // border: 1px solid blue;
+        .hero-project {
+            padding-bottom: 30px;
+            overflow: hidden;
+            img {
+                max-height: 90%;
+                width: 100%;
+            }
+        }
+        .project-slide-1 {
+            position: absolute;
+            top: 100px;
+            left: 250px;
+            cursor: pointer;
+        }
+        .project-slide-2 {
+            position: absolute;
+            top: 100px;
+            right: 250px;
+            cursor: pointer;
+        }
+    }
 
- 
+    .hero-slider-nav {
+        height: 200px;
+        // border: 1px solid yellow;
+        .hero-slider-progress {
+            padding-top: 40px;
+            span {
+                display: block;
+                width: 100%;
+                height: 2.5px;
+                margin-bottom: 6px;
+                border-radius: 3px;
+                background: #808080;
+                cursor: pointer;
+            }
+        }
+        .hero-slider-details {
+            position: relative;
+            padding-top: 20px;
+            .slide-number {
+                position: absolute;
+                max-width: 20%;
+                top: 10px;
+                left: 0;
+                color: white;
+            }
+            .slide-skills {
+                max-width: 80%;
+                position: absolute;
+                top: 10px;
+                right: 0;
+                color: white;
+            }
+        }
+    }
 }

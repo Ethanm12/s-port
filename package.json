@@ -41,5 +41,5 @@
         "sweetalert2": "^10.11.1",
         "vue-server-renderer": "^2.6.12"
     },
-    "name": "boilerplate"
+    "name": "s-port"
 }
