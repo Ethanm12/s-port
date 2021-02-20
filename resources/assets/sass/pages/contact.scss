@@ -21,7 +21,7 @@
   .form-control{
     border: none;
     border-radius: 0;
-    color: $boilerplate-dark-blue;
+    color: beige;
 
   }
   ::placeholder { /* Firefox, Chrome, Opera */
@@ -36,7 +36,7 @@
   //  color: $boilerplate-light-blue;
   //}
   .form-btn {
-    background-color: $boilerplate-dark-blue;
+    background-color: beige;
     border: none;
     color: white;
     font-size: 24px;
@@ -46,7 +46,7 @@
     margin: 20px 0;
     &:hover {
       background-color: white;
-      color: $boilerplate-dark-blue;
+      color: blue;
       //border: solid 1px $boilerplate-dark-blue;
       cursor: pointer;
     }

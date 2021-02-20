@@ -4143,6 +4143,43 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -8744,7 +8781,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "page-home" }, [
     _vm._ssrNode(
-      '<div class="container-fluid hero-projects"><div class="container hero-project"><img src="/images/hero-main-project-100.jpg" alt="Featured Project"></div> <div class="project-slide-1"><img src="/images/project-1-100.jpg" alt="Previous Project"></div> <div class="project-slide-2"><img src="/images/project-2_1-100.jpg" alt="Next Project"></div> <div class="container hero-slider-nav"><div class="hero-slider-progress"><span></span></div> <div class="hero-slider-details"><div class="slide-number">\n                    02 - 04\n                </div> <div class="slide-skills">\n                    UX/UI | Branding | Photography | Packaging\n                </div></div></div> <div class="container project-card"><div class="row"><div class="col-md-12"><div class="project-heading-container">\n              PROJECT 1\n            </div></div></div> <div class="row"><div class="col-md-4"><div class="project-details-container">\n              Client #id\n            </div></div> <div class="col-md-8"><div class="project-description-container">\n              Client #id\n            </div></div></div></div></div> <div class="container-fluid content-container">\n      ddw\n    </div>'
+      '<div class="container-fluid hero-projects"><div class="container-fluid hero-slider-container"><div class="row"><div class="col-md-2"><div class="project-slide-1"><img src="/images/project-1-100.jpg" alt="Previous Project"></div></div> <div class="col-md-8"><div class="container hero-project"><img src="/images/hero-main-project-100.jpg" alt="Featured Project"></div></div> <div class="col-md-2"><div class="project-slide-2"><img src="/images/project-2_1-100.jpg" alt="Next Project"></div></div></div></div> <div class="container hero-slider-nav"><div class="hero-slider-progress"><span></span></div> <div class="hero-slider-details"><div class="slide-number">\n                    02 - 04\n                </div> <div class="slide-skills">\n                    UX/UI | Branding | Photography | Packaging\n                </div></div></div> <div class="container project-card"><div class="row"><div class="col-md-12 project-card-border"><div class="project-heading-container"><h1>Bitter Sweet IPA</h1></div></div></div> <div class="row"><div class="col-md-4 project-card-border"><div class="project-details-container"><div class="project-details-heading">\n                Date: <div class="project-details-heading-specs"><span>**/**/**</span></div></div> <div class="project-details-heading">\n                Client:  <div class="project-details-heading-specs"><span>******** *********</span></div></div> <div class="project-details-heading">\n                Team: <div class="project-details-heading-specs"><span>********</span></div></div></div></div> <div class="col-md-8 project-card-border"><div class="project-description-container">\n              Project Brief: \tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.\n            </div></div></div></div></div>'
     )
   ])
 }

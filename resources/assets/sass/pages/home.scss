@@ -2,32 +2,42 @@
     height: auto;
     .hero-projects {
         height: 80vh;
+        clear: both;
         position: relative;
         // border: 1px solid blue;
-        .hero-project {
-            padding-bottom: 30px;
+        .hero-slider-container{
             overflow: hidden;
-            img {
-                max-height: 90%;
-                width: 100%;
+            .hero-project {
+                img {
+                    height: 90%;
+                    width: 100%;
+                }
             }
-        }
-        .project-slide-1 {
-            position: absolute;
-            top: 100px;
-            left: 250px;
-            cursor: pointer;
-        }
-        .project-slide-2 {
-            position: absolute;
-            top: 100px;
-            right: 250px;
-            cursor: pointer;
+            .project-slide-1 {
+                cursor: pointer;
+                img {
+                    height: 90%;
+                    width: 90%;
+                }
+                @include media-breakpoint-down(sm){
+                    display: none;
+                }
+            }
+            .project-slide-2 {
+                cursor: pointer;
+                img {
+                    height: 90%;
+                    width: 90%;
+                }
+                @include media-breakpoint-down(sm){
+                    display: none;
+                }
+            }
         }
     }
 
     .hero-slider-nav {
-        height: 200px;
+        height: 150px;
         // border: 1px solid yellow;
         .hero-slider-progress {
             padding-top: 40px;
@@ -59,5 +69,43 @@
                 color: white;
             }
         }
+    }
+
+    // PROJECT CARD STARTS
+
+    
+    .project-card{
+        padding-bottom: 200px;
+        .project-card-border{
+            border: 1px solid #FFFFFF;
+        }
+        .project-heading-container{
+            padding: 12px;
+        }
+        .project-details-container{
+            .project-details-heading{
+                position: relative;
+                display: block;
+                padding: 10px 5px;
+                font-weight: 200;
+                .project-details-heading-specs{
+                    position: absolute;
+                    top: 35%;
+                    left: 25%;
+                }
+            }
+        }
+        .project-description-container{
+            padding: 40px 20px;
+            font-weight: 200;
+            margin-right: 35%;
+        }
+    }
+
+    .main-content{
+        height: 500px;
+        width: 100%;
+        background-color: white;
+        position: relative;
     }
 }
