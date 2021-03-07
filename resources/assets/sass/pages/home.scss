@@ -5,7 +5,7 @@
         clear: both;
         position: relative;
         // border: 1px solid blue;
-        .hero-slider-container{
+        .hero-slider-container {
             overflow: hidden;
             .hero-project {
                 img {
@@ -13,32 +13,47 @@
                     width: 100%;
                 }
             }
-            .project-slide-1 {
-                cursor: pointer;
-                img {
-                    height: 90%;
-                    width: 90%;
-                }
-                @include media-breakpoint-down(sm){
-                    display: none;
+            .project-left-container {
+                position: relative;
+                .project-slide-1 {
+                    cursor: pointer;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    top: 0;
+                    img {
+                        height: 90%;
+                        width: 90%;
+                    }
+                    @include media-breakpoint-down(sm) {
+                        display: none;
+                    }
                 }
             }
-            .project-slide-2 {
-                cursor: pointer;
-                img {
-                    height: 90%;
-                    width: 90%;
-                }
-                @include media-breakpoint-down(sm){
-                    display: none;
+            .project-right-container {
+                position: relative;
+                .project-slide-2 {
+                    cursor: pointer;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    top: 0;
+                    img {
+                        height: 90%;
+                        width: 90%;
+                    }
+                    @include media-breakpoint-down(sm) {
+                        display: none;
+                    }
                 }
             }
         }
     }
 
+    // SLIDER ENDS HERE
+
     .hero-slider-nav {
         height: 150px;
-        // border: 1px solid yellow;
         .hero-slider-progress {
             padding-top: 40px;
             span {
@@ -73,39 +88,147 @@
 
     // PROJECT CARD STARTS
 
-    
-    .project-card{
-        padding-bottom: 200px;
-        .project-card-border{
-            border: 1px solid #FFFFFF;
+    .project-card {
+        padding-bottom: 100px;
+        @include media-breakpoint-down(sm){
+            // margin-right: 10px;
+            // margin-left: 10px;
         }
-        .project-heading-container{
+        .project-card-border {
+            border: 1px solid #ffffff;
+        }
+        .project-heading-container {
             padding: 12px;
         }
-        .project-details-container{
-            .project-details-heading{
+        .project-details-container {
+            .project-details-heading {
                 position: relative;
                 display: block;
                 padding: 10px 5px;
                 font-weight: 200;
-                .project-details-heading-specs{
+                .project-details-heading-specs {
                     position: absolute;
                     top: 35%;
                     left: 25%;
                 }
             }
         }
-        .project-description-container{
+        .project-description-container {
             padding: 40px 20px;
             font-weight: 200;
             margin-right: 35%;
+            @include media-breakpoint-down(sm){
+                margin-right: 0;
+                padding: 20px 10px;
+            }
         }
     }
 
-    .main-content{
-        height: 500px;
+    // .parallax-end {
+    //     background-image: url("/images/noice-100.jpg");
+
+    //     /* Set a specific height */
+    //     height: 600px;
+
+    //     /* Create the parallax scrolling effect */
+    //     background-attachment: fixed;
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    // }
+
+    .main-content {
+        height: auto;
         width: 100%;
-        background-color: white;
         position: relative;
+        // background-color: white;
+        .parallax {
+            background-image: url("/images/hero-main-project-100.jpg");
+    
+            /* Set a specific height */
+            height: 500px;
+    
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main-content-image {
+            position: absolute;
+            top: 10%;
+            height: 550px;
+            width: 500px;
+            background-color: #e6e6e6;
+            z-index: 999;
+            @include media-breakpoint-down(sm) {
+                height: 250px;
+                width: 200px;
+            }
+        }
+        .main-content-description {
+            position: absolute;
+            top: 5%;
+            right: 15%;
+            width: 800px;
+            height: 280px;
+            padding-left: 285px;
+            font-size: 32px;
+            font-weight: 200;
+            color: black;
+            border-bottom: 1px solid black;
+            @include media-breakpoint-down(md){
+                top: 15%;
+                right: 10%;
+                width: 550px;
+                height: 280px;
+                font-size: 24px;
+            }
+        }
+        .second-content-description{
+            position: absolute;
+            bottom: 25%;
+            width: 800px;
+            height: 280px;
+            padding-right: 300px;
+            font-size: 16px;
+            font-weight: 200;
+            color: white;
+            border-bottom: 1px solid white;
+            @include media-breakpoint-down(md){
+                top: 15%;
+                left: 10%;
+                width: 550px;
+                height: 280px;
+                font-size: 24px;
+            }
+        }
+        .second-content-image{
+            position: absolute;
+            bottom: 13%;
+            right: 15%;
+            height: 650px;
+            width: 550px;
+            background-color: #e6e6e6;
+            z-index: 999;
+            @include media-breakpoint-down(sm) {
+                height: 250px;
+                width: 200px;
+            }
+        }
+    }
+
+    // BIG PICTURES
+    .banner-images{
+        .project-banner-images{
+            width: 1000px;
+            height: 750px;
+            background-color: #e6e6e6;
+            margin-top: 100px;
+        }
+    }
+    .second-panel {
+        height: 1000px;
+        width: 100%;
     }
 }
